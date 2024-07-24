@@ -1,0 +1,23 @@
+header {
+  background-color: #000;
+  position        : fixed;
+  top             : 0;
+  left            : 0;
+  right           : 0;
+  z-index         : 1000;
+  /* Ajusta este valor según tus necesidades */
+  /* Asegúrate de que el fondo no sea transparente */
+  display         : flex;
+  justify-content : space-between;
+  /* Ajusta según el diseño que desees */
+  padding         : 10px;
+  /* Ajusta según el diseño que desees */
+  box-shadow      : 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header.container-header {
+  display        : flex;
+  flex-wrap      : nowrap;
+  justify-content: space-around;
+  border-bottom  : 3px solid #e82107;
+}

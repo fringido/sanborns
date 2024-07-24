@@ -1,0 +1,72 @@
+.video-container {
+  display            : flex;
+  background         : #000;
+  background-image   : url('../../../assets/background.jpg');
+  background-repeat  : no-repeat;
+  background-position: center center;
+  background-size    : auto;
+  flex-direction     : column;
+  align-items        : center;
+  gap                : 25px;
+  padding-bottom     : 75px;
+  margin-top         : 82px;
+}
+
+.conteiner-buttons-video {
+  display        : flex;
+  gap            : 20px;
+  background     : #232323;
+  flex-direction : row;
+  justify-content: center;
+  flex-wrap      : wrap;
+  justify-content: center;
+  /* Opcional    : Centra los botones horizontalmente */
+}
+
+.button-video {
+
+  /* Ajusta el ancho según el número de botones y espacios */
+  margin: 5px;
+  /* Espacio entre botones */
+  cursor: pointer;
+}
+
+.video {
+  width : 100%;
+  /* Ajusta el ancho de la imagen al contenedor */
+  height: auto;
+  /* Mantiene las proporciones de la imagen */
+}
+
+/* Media queries para ajustes adicionales */
+@media (max-width: 768px) {
+  .button-video {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .button-video {
+    width: calc(100% - 20px);
+  }
+}
+
+.select-video {
+  color           : #fff;
+  display         : flex;
+  background-color: #232323;
+  flex-direction  : column;
+  align-items     : center;
+}
+
+.responsive-video {
+
+  width : 50%;
+  height: 40vh;
+  /* Adjust height using vh for viewport height */
+}
+
+.text-media {
+  text-align   : center;
+  margin-bottom: 13px;
+}

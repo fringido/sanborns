@@ -1,0 +1,26 @@
+.counter-container {
+  display       : flex;
+  flex-direction: column;
+  flex-wrap     : nowrap;
+  align-items   : center;
+  color: #fff;
+}
+.counter {
+  display       : flex;
+  flex-direction: row;
+  flex-wrap     : nowrap;
+  gap           : 31px;
+      font-weight: 700;
+      font-size:large;
+}
+
+.counter-circle {
+  display        : flex;
+  border         : 3px solid;
+  border-radius  : 50%;
+  height         : 50px;
+  width          : 50px;
+  flex-direction : column;
+  align-items    : center;
+  justify-content: center;
+}

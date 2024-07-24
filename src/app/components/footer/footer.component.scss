@@ -1,0 +1,46 @@
+.footer {
+  background-color: #000;
+  color           : #fff;
+  display         : flex;
+  justify-content : space-around;
+  align-items     : center;
+      flex-wrap: wrap;
+}
+
+img.img-media {
+    height: 27px;
+    width : 29px;
+    padding: 3px;
+}
+.conteiner-media {
+  display        : flex;
+  align-items    : center;
+  justify-content: center;
+
+}
+.media {
+  display    : flex;
+  gap        : 12px;
+  align-items: center;
+  cursor: pointer;
+
+}
+
+.conteiner-media.phone {
+  background   : #6baff3;
+  border-radius: 6px;
+}
+
+.conteiner-media.xs {
+  background   : #55abf4;
+  border-radius: 6px;
+}
+
+.conteiner-media.facebook {
+  background   : #3a599c;
+  border-radius: 6px;
+}
+.conteiner-media.youtube {
+  background   : #a32a1f;
+  border-radius: 6px;
+}

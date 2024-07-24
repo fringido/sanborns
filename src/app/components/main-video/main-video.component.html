@@ -1,0 +1,69 @@
+<div class="video-container">
+  <app-count></app-count>
+  @if(button === 1){
+  <iframe
+    id="video1"
+    class="responsive-video"
+    src="https://www.youtube.com/embed/fDEiMdQ7CMo?autoplay=1&si=oGY1izyidvwN1USA"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+  ></iframe>
+  } @if(button === 2){
+  <iframe
+    id="video2"
+    class="responsive-video"
+    src="https://www.youtube.com/embed/OLUjHgqBnOk?autoplay=1&si=Xtoo9YlsOr-KYU63"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+  ></iframe>
+  } @if(button === 3){
+  <iframe
+    id="video3"
+    class="responsive-video"
+    src="https://www.youtube.com/embed/zB0ebCxFZmk?autoplay=1&si=_l2NwqGcgALPD56_"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+  ></iframe>
+  } @if(button === 4){
+  <iframe
+    id="video4"
+    class="responsive-video"
+    src="https://www.youtube.com/embed/KQcoBT2BlKA?autoplay=1&si=9w-di-hqPayVJ04N"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+  ></iframe>
+  }
+</div>
+<div class="select-video">
+  <h1>CLARO SPORTS EN SOCHI 2014</h1>
+  <div class="conteiner-buttons-video">
+    <div class="button-video" (click)="cambioUno()">
+      <img class="video" src="../../../assets/team-latam.png" alt="" />
+      <div class="text-media">TEAM LATAM</div>
+    </div>
+    <div class="button-video" (click)="cambioDos()">
+      <img
+        class="video"
+        src="../../../assets/travel-meets-fashion.png"
+        alt=""
+      />
+      <div class="text-media">TRAVEL MEETS FASHION</div>
+    </div>
+    <div class="button-video" (click)="cambioTres()">
+      <img class="video" src="../../../assets/velocidad-riesgo.png" alt="" />
+      <div class="text-media">VELOCIDAD Y RIESGO</div>
+    </div>
+    <div class="button-video" (click)="cambioCuatro()">
+      <img class="video" src="../../../assets/experiencia.png" alt="" />
+      <div class="text-media">EXPERIENCIA MULTINEDIA</div>
+    </div>
+  </div>
+</div>
